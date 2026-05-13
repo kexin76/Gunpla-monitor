@@ -1,2 +1,2 @@
 # price-monitor
-Monitor website by automation
+Gunpla Price/Website Monitor for Gundam Planet and USA Gundam Store

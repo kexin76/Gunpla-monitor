@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "check_interval_seconds": 86400,
+    "reset_seenproducts_every_cycle": true
+  },
+
+  "budget": {
+    "HG": {"min": 15, "max": 30 },
+    "MG": {"min": 30, "max": 35 },
+    "RG": {"min": 25, "max": 35 },
+    "PG": {"min":0, "max":800},
+    "Entry Grade": {"min": 0, "max":15}
+  },
+  "watchlist": [
+    {
+      "url": "https://www.gundamplanet.com/collections/high-grade-gunpla/products/hg-ibo-reginlaze-julia.json",
+      "site": "Gundam Planet"
+    },
+    {
+      "url": "https://www.gundamplanet.com/collections/high-grade-gunpla/products/hg-orx-139-hambrabi-gq-ver.json",
+      "site": "Gundam Planet"
+    },
+    {
+      "url": "https://www.usagundamstore.com/collections/hg-model-kits/products/hguc-1-144-206-efreet-schneid.json",
+      "site": "USA Gundam Store"
+    },
+    {
+      "url": "https://www.usagundamstore.com/collections/hg-model-kits/products/hguc-1-144-100-rx-0-unicorn-gundam-destroy-mode.json",
+      "site": "USA Gundam Store"
+    }
+  ],
+  "gundamplanet": {
+    "base_url": "https://www.gundamplanet.com/collections/gunpla/products.json",
+    "limit": 250
+  },
+  "usagundam": {
+    "collections": [
+      "https://ckt36l.a.searchspring.io/api/search/category.json?siteId=ckt36l&bgfilter.collection_handle=1-100&filter.ss_availability_filter=In%20Stock&sort.ss_days_since_published=asc&resultsPerPage=250&resultsFormat=native",
+      "https://ckt36l.a.searchspring.io/api/search/category.json?siteId=ckt36l&bgfilter.collection_handle=1-144&filter.ss_availability_filter=In%20Stock&sort.ss_days_since_published=asc&resultsPerPage=250&resultsFormat=native",
+      "https://ckt36l.a.searchspring.io/api/search/category.json?siteId=ckt36l&bgfilter.collection_handle=entry&filter.ss_availability_filter=In%20Stock&sort.ss_days_since_published=asc&resultsPerPage=250&resultsFormat=native"
+    ]
+  }
+}
